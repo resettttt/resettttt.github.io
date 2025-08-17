@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Anime RGB</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/lucide-icons/dist/umd/lucide.min.css">
+  <style>
+    body {
+      background: radial-gradient(circle at top, #0f0f1a, #050509);
+      font-family: 'Poppins', sans-serif;
+    }
+    .neon-text {
+      text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff, 0 0 30px #00ff99;
+    }
+  </style>
+</head>
+<body class="text-gray-200">
+
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <img src="https://i.pinimg.com/564x/ba/df/40/badf401c84e8970e2af7d29d3c8d2ab0.jpg" 
+         alt="Avatar estilo anime" 
+         class="rounded-full border-4 border-cyan-400 shadow-lg w-40 h-40 mb-6">
+    <h1 class="text-4xl md:text-6xl font-bold neon-text">Hola, soy Emmanuel</h1>
+    <p class="mt-4 text-lg md:text-xl text-cyan-300">Desarrollador de Sistemas de Información y Software</p>
+    <a href="#proyectos" 
+       class="mt-6 px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full text-white font-semibold shadow-lg hover:scale-105 transition">
+       Ver Portafolio
+    </a>
+  </section>
+
+  <!-- Tecnologías -->
+  <section class="py-16 bg-gradient-to-r from-[#1a1a2e] to-[#16213e]" id="tech">
+    <h2 class="text-3xl md:text-4xl font-bold text-center neon-text mb-10">Tecnologías</h2>
+    <div class="flex flex-wrap justify-center gap-10 text-6xl">
+      <i class="devicons devicons-html5 text-orange-500"></i>
+      <i class="devicons devicons-css3 text-blue-500"></i>
+      <i class="devicons devicons-javascript_badge text-yellow-400"></i>
+      <i class="devicons devicons-java text-red-500"></i>
+      <i class="devicons devicons-php text-indigo-400"></i>
+      <i class="devicons devicons-mysql text-cyan-400"></i>
+      <i class="devicons devicons-github_badge text-white"></i>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section class="py-16" id="proyectos">
+    <h2 class="text-3xl md:text-4xl font-bold text-center neon-text mb-10">Proyectos</h2>
+    <div class="grid md:grid-cols-3 gap-10 px-8">
+      <div class="p-6 rounded-2xl bg-gradient-to-b from-purple-800 to-indigo-900 shadow-lg hover:scale-105 transition">
+        <h3 class="text-xl font-semibold text-pink-300">Sistema de Reservas</h3>
+        <p class="mt-2 text-sm">Aplicación web para gestión de reservas con Oracle APEX y SQL.</p>
+      </div>
+      <div class="p-6 rounded-2xl bg-gradient-to-b from-cyan-700 to-teal-900 shadow-lg hover:scale-105 transition">
+        <h3 class="text-xl font-semibold text-cyan-300">Gestión de Clientes</h3>
+        <p class="mt-2 text-sm">CRUD completo para clientes usando Java y PostgreSQL.</p>
+      </div>
+      <div class="p-6 rounded-2xl bg-gradient-to-b from-pink-700 to-purple-900 shadow-lg hover:scale-105 transition">
+        <h3 class="text-xl font-semibold text-purple-300">Portafolio Anime</h3>
+        <p class="mt-2 text-sm">Este mismo sitio, inspirado en estética anime RGB.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-black text-center text-sm text-gray-400">
+    © 2025 Emmanuel Velásquez | Inspirado en el anime ✨
+  </footer>
+
+</body>
+</html>
+b
